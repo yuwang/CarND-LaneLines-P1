@@ -35,14 +35,15 @@ My pipeline consisted of 5 steps.  I will show you how each of these steps works
 6. Finally draw the left and right line on the initial image. I have to modify the original draw_lines() function to use addWeight() so that the lines looks semi-transparent. Also I have to fill out the invalid lines.
 
 Below are the test images and what they looks like after the processing.
-| Original | Processed |
-| -------------------------------------- | -------------------------------------- |
-|![solidWhiteCurve][image_solidWhiteCurve]|![solidWhiteCurveOutput][image_solidWhiteCurve_output]|
-|![solidWhiteRight][image_solidWhiteRight]|![solidWhiteRightOutput][image_solidWhiteRight_output]|
-|![solidYellowCurve][image_solidYellowCurve]|![solidYellowCurveOutput][image_solidYellowCurve_output]|
-|![solidYellowCurve2][image_solidYellowCurve2]|![solidYellowCurveOutput2][image_solidYellowCurve2_output]|
-|![solidYellowLeft][image_solidYellowLeft]|![solidYellowLeftOutput][image_solidYellowLeft_output]|
-|![whiteCarLaneSwitch][image_whiteCarLaneSwitch]|![whiteCarLaneSwitchOutput][image_whiteCarLaneSwitch_output]|
+
+Original | Processed
+:---:  | :---:
+![solidWhiteCurve][image_solidWhiteCurve]|![solidWhiteCurveOutput][image_solidWhiteCurve_output]
+![solidWhiteRight][image_solidWhiteRight]|![solidWhiteRightOutput][image_solidWhiteRight_output]
+![solidYellowCurve][image_solidYellowCurve]|![solidYellowCurveOutput][image_solidYellowCurve_output]
+![solidYellowCurve2][image_solidYellowCurve2]|![solidYellowCurveOutput2][image_solidYellowCurve2_output]
+![solidYellowLeft][image_solidYellowLeft]|![solidYellowLeftOutput][image_solidYellowLeft_output]
+![whiteCarLaneSwitch][image_whiteCarLaneSwitch]|![whiteCarLaneSwitchOutput][image_whiteCarLaneSwitch_output]
 
 ## 2. Identify potential shortcomings with your current pipeline
 
